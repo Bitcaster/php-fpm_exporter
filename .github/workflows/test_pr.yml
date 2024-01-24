@@ -79,7 +79,7 @@ jobs:
       uses: anchore/scan-action@v3.3.7
       id: scan
       with:
-        image: "hipages/php-fpm_exporter:latest"
+        image: "Bitcaster/php-fpm_exporter:latest"
         acs-report-enable: true
         fail-build: false
 
